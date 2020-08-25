@@ -1,0 +1,2 @@
+python space.py
+PAUSE
