@@ -1,8 +1,8 @@
 import platform, os, random, time
-from assets import shuttle
 
 if platform.system() == "Windows":
     cmd = "cls"
+    os.system("title Space Shuttle")
 
 else: 
     cmd = "clear"
@@ -49,4 +49,4 @@ while True:
     
     os.system(cmd)
     print("\n".join(result))
-    time.sleep(0.3)
+    time.sleep(0.15)
