@@ -1,2 +1,0 @@
-python space.py
-PAUSE
